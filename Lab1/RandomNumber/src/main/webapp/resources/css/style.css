@@ -1,0 +1,24 @@
+.container {
+    margin-left: 38%;
+    width: 300px;
+    background-color: azure;
+}
+
+.blue {
+    color: dodgerblue;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: crimson;
+}
+
+a {
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 40%;
+}
