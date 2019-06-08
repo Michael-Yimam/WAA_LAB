@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org/">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Detail</title>
+    <link rel="stylesheet" th:href="@{/css/main.css}" href="../css/main.css" />
+</head>
+<body>
+
+<div id="global">
+    <h4>The employee details have been saved.</h4>
+    <p>
+    <h5>Details:</h5>
+    First Name:<span th:text="${employee.firstName}"></span><br/>
+    Last Name: <span th:text="${employee.lastName}"></span><br/>
+    Date of birth: <span th:text="${employee.birthDate}"></span>
+    </p>
+</div>
+
+</body>
+</html>
